@@ -1,14 +1,52 @@
-body{
+/* GLOBAL STYLES */
+
+html{
   background-color: #FAF4E8;
   color: #D1F0B1;
   color: #414042;
+  font-size: 14pt;
 }
+body{
+  background-color: inherit;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* NAV BAR STYLES */
 
 header{
   background-color: #92B4A7;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: 2px solid #D1F0B1;
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.4);
+}
+.navbar{
+  padding: .2rem 2rem;
+}
+li{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.nav-link{
   color: #FAF4E8;
+  font-size: 1em;
+  font-weight: 400;
+}
+li.active a{
+  color: #D1F0B1;
+}
+.nav-link:hover{
+  color: #D1F0B1;
 }
 
+
+/* MEDIA QUERIES FOR SCREEN SIZES */
 
 /* Small devices (landscape phones, 576px and up) */
 @media(min-width: 576px) { ... }
