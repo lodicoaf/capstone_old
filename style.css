@@ -30,13 +30,13 @@ header{
   padding: .2rem 2rem;
 }
 li{
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 .nav-link{
   color: #FAF4E8;
-  font-size: 1em;
-  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 li.active a{
   color: #D1F0B1;
@@ -44,8 +44,23 @@ li.active a{
 .nav-link:hover{
   color: #D1F0B1;
 }
+/* HEADING STYLES */
 
+.title{
+  color: #B6CB9E;
+  padding: 2rem 2rem .5rem 2rem;
+}
 
+/* FOOTER STYLES */
+
+footer{
+  background-color: #92B4A7;
+  font-family: 'Montserrat', sans-serif;
+  border-top: 2px solid #D1F0B1;
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.4);
+  padding-top: 1rem;
+  text-align: center;
+}
 /* MEDIA QUERIES FOR SCREEN SIZES */
 
 /* Small devices (landscape phones, 576px and up) */
