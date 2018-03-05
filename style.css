@@ -3,8 +3,8 @@
 html{
   background-color: #FAF4E8;
   color: #D1F0B1;
-  color: #414042;
   font-size: 14pt;
+  width: 100%;
 }
 body{
   background-color: inherit;
@@ -16,14 +16,12 @@ h1 {
 p{
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  color: #414042;
 }
 
 
 /* NAV BAR STYLES */
 
-header{
-
-}
 .navbar{
   background-color: #92B4A7;
   font-family: 'Montserrat', sans-serif;
@@ -54,6 +52,12 @@ li.active a{
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#FAF4E8' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
+button:focus {
+  outline: none;
+}
+button:hover{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
 /* HOMEPAGE NAVBAR ADJUSTMENTS */
 #home{
   background-color: #92B4A7;
@@ -70,6 +74,7 @@ li.active a{
 }
 
 
+
 /* HEADING STYLES */
 
 .title{
@@ -82,10 +87,11 @@ li.active a{
 footer{
   background-color: #92B4A7;
   font-family: 'Montserrat', sans-serif;
+  font-size: .8rem;
   border-top: 2px solid #D1F0B1;
   box-shadow: 0 1px 15px rgba(0, 0, 0, 0.4);
   padding-top: 1rem;
-  text-align: center;
+  text-align: right;
 }
 /* MEDIA QUERIES FOR SCREEN SIZES */
 
