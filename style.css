@@ -22,12 +22,13 @@ p{
 /* NAV BAR STYLES */
 
 header{
+
+}
+.navbar{
   background-color: #92B4A7;
   font-family: 'Montserrat', sans-serif;
   border-bottom: 2px solid #D1F0B1;
   box-shadow: 0 1px 15px rgba(0, 0, 0, 0.4);
-}
-.navbar{
   padding: .2rem 2rem;
   text-align: center;
 }
@@ -53,6 +54,22 @@ li.active a{
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#FAF4E8' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
+/* HOMEPAGE NAVBAR ADJUSTMENTS */
+#home{
+  background-color: #92B4A7;
+}
+#home, .navbar{
+  border-bottom: none;
+  box-shadow: none;
+}
+#home h1{
+  font-size: 5rem;
+  text-align: center;
+  padding-top: 20%;
+  color: #D1F0B1;
+}
+
+
 /* HEADING STYLES */
 
 .title{
