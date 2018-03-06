@@ -8,6 +8,7 @@ html{
 }
 body{
   background-color: inherit;
+
 }
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -82,6 +83,11 @@ button:hover{
   padding: 2rem 2rem .5rem 2rem;
 }
 
+/* COLUMN STYLES */
+#body_cols{
+  padding: 1rem 3rem;
+}
+
 /* FOOTER STYLES */
 
 footer{
@@ -91,15 +97,28 @@ footer{
   border-top: 2px solid #D1F0B1;
   box-shadow: 0 1px 15px rgba(0, 0, 0, 0.4);
   padding-top: 1rem;
-  text-align: right;
+  text-align: center;
 }
 /* MEDIA QUERIES FOR SCREEN SIZES */
 
 /* Small devices (landscape phones, 576px and up) */
-@media(min-width: 576px) { ... }
+@media(min-width: 576px) {
+
+}
 /* Medium devices (tablets, 768px and up) */
-@media(min-width: 768px) { ... }
+@media(min-width: 768px) {
+
+}
 /* Large devices (desktops, 992px and up) */
-@media(min-width: 992px) { ... }
+@media(min-width: 992px) {
+  div{
+    height: 100%;
+  }
+ }
 /* Extra large devices (large desktops, 1200px and up) */
-@media(min-width: 1200px) { ... }
+@media(min-width: 1366px) {
+  li{
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+  }
+ }
