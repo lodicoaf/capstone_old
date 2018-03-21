@@ -16,7 +16,7 @@ html{
   width: 100%;
 }
 body{
-  background-color: inherit;
+  background-color: var(--cream);
   margin-bottom: 4rem;
 
 }
@@ -126,8 +126,7 @@ footer{
  }
 /* Extra large devices (large desktops, 1200px and up) */
 @media(min-width: 1366px) {
-  li{
-    margin-left: 4.5rem;
-    margin-right: 4.5rem;
+  nav-item{
+    text-align: right;
   }
  }
