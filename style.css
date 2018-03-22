@@ -150,10 +150,13 @@ button:hover{
   padding: 2rem 2rem .5rem 2rem;
 }
 
-/* COLUMN STYLES */
-#body_cols{
-  padding: 1rem 3rem;
+
+/* ABOUT STYLES */
+#about{
+  padding: 3rem 3rem 2rem 3rem;
+  color: var(--green2);
 }
+
 
 /* FOOTER STYLES */
 
